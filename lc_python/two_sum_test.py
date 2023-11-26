@@ -18,9 +18,9 @@ class Solution:
             hashmap[n] = i
         return []
 
+solution = Solution()
 
 def test_twoSum_1():
-    solution = Solution()
     nums = [2, 7, 11, 15]
     target = 9
 
@@ -29,7 +29,6 @@ def test_twoSum_1():
 
 
 def test_twoSum_2():
-    solution = Solution()
     nums = [3, 2, 4]
     target = 6
 
@@ -38,7 +37,6 @@ def test_twoSum_2():
 
 
 def test_twoSum_3():
-    solution = Solution()
     nums = [3, 3]
     target = 6
 
