@@ -19,15 +19,15 @@ solution = Solution()
 
 def test_isValid_1():
     s = "()"
-    assert solution.isValid(s) == True
+    assert solution.isValid(s) is True
 
 
 def test_isValid_2():
     s = "()[]{}"
-    assert solution.isValid(s) == True
+    assert solution.isValid(s) is True
 
 
 def test_isValid_3():
     s = "(]"
-    assert solution.isValid(s) == False
+    assert solution.isValid(s) is False
 

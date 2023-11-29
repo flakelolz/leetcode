@@ -59,7 +59,7 @@ def test_mergeTwoLists_1():
     answer.next.next.next.next = ListNode(4)
     answer.next.next.next.next.next = ListNode(4)
 
-    assert checker(Solution().mergeTwoLists(list1, list2), answer) == True
+    assert checker(Solution().mergeTwoLists(list1, list2), answer) is True
 
 
 def test_mergeTwoLists_2():
@@ -68,7 +68,7 @@ def test_mergeTwoLists_2():
 
     answer = ListNode()
 
-    assert checker(Solution().mergeTwoLists(list1, list2), answer) == True
+    assert checker(Solution().mergeTwoLists(list1, list2), answer) is True
 
 
 def test_mergeTwoLists_3():
@@ -77,5 +77,5 @@ def test_mergeTwoLists_3():
 
     answer = ListNode(0)
 
-    assert checker(Solution().mergeTwoLists(list1, list2), answer) == True
+    assert checker(Solution().mergeTwoLists(list1, list2), answer) is True
 
