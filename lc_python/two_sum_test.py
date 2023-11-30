@@ -18,7 +18,9 @@ class Solution:
             hashmap[n] = i
         return []
 
+
 solution = Solution()
+
 
 def test_twoSum_1():
     nums = [2, 7, 11, 15]
@@ -42,4 +44,3 @@ def test_twoSum_3():
 
     assert solution.twoSum_hashmap(nums, target) == [0, 1]
     assert solution.twoSum_force(nums, target) == [0, 1]
-
